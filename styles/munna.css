@@ -213,7 +213,7 @@ height:64px;
     border-radius: 5px;
     background-color: white;
     display: block;
-    width: 200%;
+    width: 300px;
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
@@ -222,4 +222,15 @@ height:64px;
     footer{
         padding:100px;
     }
+
+.resume-container{
+    display:block;
+    gap: 24px;
+}
+.header{
+    margin-left: 200px;
+}
+
+
+
 }
