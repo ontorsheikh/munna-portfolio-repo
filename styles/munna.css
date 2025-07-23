@@ -60,6 +60,8 @@ nav{
     margin: 0 200px;
 }
 
+
+
 .nav-title{
     font-weight:800;
     font-size: 45px;
@@ -69,6 +71,8 @@ nav ul{
     display: flex;
     align-items: center;
 }
+
+
 
 nav ul li {
     list-style: none;
@@ -85,6 +89,13 @@ nav li a {
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
+}
+@media screen and (max-width:576px) {
+    .banner{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
 }
 .banner-content{
     max-width: 580px;
@@ -116,6 +127,11 @@ main section{
     margin-bottom: 130px;
 }
 
+@media screen and (max-width:576px) {
+    main{
+        width:3000px;
+    }
+}
 /* about styles */
 .about{
     border-radius: 10px;
